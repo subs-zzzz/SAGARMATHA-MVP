@@ -1,0 +1,23 @@
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 1.5rem;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    button[name="add"] {
+        width: 100%;
+    }
+}
+
+input[type="text"]:focus {
+    outline: 3px solid #74ebd5;
+    border-color: transparent;
+}
