@@ -1,0 +1,5 @@
+body { font-family: sans-serif; display: flex; justify-content: center; background: #eee; }
+.container { background: white; padding: 20px; border-radius: 8px; margin-top: 50px; width: 300px; }
+form { display: flex; gap: 10px; }
+ul { list-style: none; padding: 0; }
+li { display: flex; justify-content: space-between; padding: 8px; border-bottom: 1px solid #ddd; }
